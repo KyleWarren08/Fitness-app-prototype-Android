@@ -1,4 +1,4 @@
-# Fitness-app-prototype-Android-
+# Fitness-app-prototype-Android
 I  created this app prototype as my first android app. This app allows a user  create a sign up and login, 
 then they can input there physical details and begin making use of the app.
 The app allows users to set goals and input daily calories for each meal,while also being able to take a picture of each meal.
