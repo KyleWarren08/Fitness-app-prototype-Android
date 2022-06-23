@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "796311716620",
+    "firebase_url": "https://fitologyv112.firebaseio.com",
+    "project_id": "fitologyv112",
+    "storage_bucket": "fitologyv112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796311716620:android:53ca610b5c4494c29dff29",
+        "android_client_info": {
+          "package_name": "com.example.fitologyv112"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796311716620-7thekh4o43mv9cm74od7oidvavorm33m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitologyv112",
+            "certificate_hash": "45645fe8d9097a4c750f1f4e9e756d60915d88a8"
+          }
+        },
+        {
+          "client_id": "796311716620-s7qf3rvp0jg7c2l7koo24a78esri21ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRHK5OZWcois0dj9MknDu8lYl2zg1CIK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796311716620-s7qf3rvp0jg7c2l7koo24a78esri21ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

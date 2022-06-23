@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FitologyV1.1.2</string>
+
+    //Gender spinner for edit statistics
+    <string-array name="Genders">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    //Weight unite spinner
+    <string-array name="WeightUnite">
+        <item>kg</item>
+        <item>lb</item>
+    </string-array>
+
+    //Height unite spinner
+    <string-array name="HeightUnite">
+        <item>m</item>
+        <item>in</item>
+    </string-array>
+
+    //Weight tracker
+    <array name="WeightList">
+        <item>2020/10/04 67.5kg</item>
+        <item>2020/10/05 67.5kg</item>
+        <item>2020/10/06 68kg</item>
+    </array>
+
+    //Lose or gain spinner
+    <array name="LoseOrGain">
+        <item>Losing</item>
+        <item>Gaining</item>
+    </array>
+</resources>

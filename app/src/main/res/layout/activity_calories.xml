@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999"
+    tools:context=".Calories">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="431dp"
+        android:layout_height="56dp"
+        android:background="@drawable/rectangle_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/picturebox"
+        android:layout_width="345dp"
+        android:layout_height="182dp"
+        android:background="@drawable/rectangle_bar"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/picturebox2"
+        android:layout_width="345dp"
+        android:layout_height="182dp"
+        android:background="@drawable/rectangle_bar"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/picturebox3"
+        android:layout_width="345dp"
+        android:layout_height="182dp"
+        android:background="@drawable/rectangle_bar"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="95dp"
+        android:layout_height="38dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Calories"
+        android:textColor="#fc363b"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="429dp"
+        android:layout_height="54dp"
+        android:background="@drawable/rectangle_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="84dp"
+        android:layout_height="43dp"
+        android:background="@color/button_color"
+        android:text="Home"
+        android:textColor="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <Button
+        android:id="@+id/btnWeight"
+        android:layout_width="84dp"
+        android:layout_height="43dp"
+        android:background="@color/button_color"
+        android:text="Weight"
+        android:textColor="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <Button
+        android:id="@+id/btnCalories"
+        android:layout_width="84dp"
+        android:layout_height="43dp"
+        android:background="@color/button_color"
+        android:text="Calories"
+        android:textColor="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="84dp"
+        android:layout_height="43dp"
+        android:background="@color/button_color"
+        android:text="Profile"
+        android:textColor="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <ImageButton
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toEndOf="@+id/txtHome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307"
+        app:srcCompat="@drawable/ic_blacksettings" />
+
+    <TextView
+        android:id="@+id/txtBreakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        android:textColor="#fc363b"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/txtLunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lunch"
+        android:textColor="#fc363b"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.392" />
+
+    <TextView
+        android:id="@+id/txtDinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dinner"
+        android:textColor="#fc363b"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.728" />
+
+    <ImageView
+        android:id="@+id/FoodPicture"
+        android:layout_width="96dp"
+        android:layout_height="90dp"
+        android:background="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="@+id/picturebox"
+        app:layout_constraintTop_toTopOf="@+id/picturebox"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <ImageView
+        android:id="@+id/foodPicture3"
+        android:layout_width="96dp"
+        android:layout_height="90dp"
+        android:background="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox3"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox3"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="@+id/picturebox3"
+        app:layout_constraintTop_toTopOf="@+id/picturebox3"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <ImageView
+        android:id="@+id/foodPicture2"
+        android:layout_width="96dp"
+        android:layout_height="90dp"
+        android:background="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox2"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox2"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="@+id/picturebox2"
+        app:layout_constraintTop_toTopOf="@+id/picturebox2"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <ImageButton
+        android:id="@+id/btnCapture"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="@+id/picturebox"
+        app:layout_constraintTop_toTopOf="@+id/picturebox"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_picture" />
+
+    <ImageButton
+        android:id="@+id/btnCapture2"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox2"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox2"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="@+id/picturebox2"
+        app:layout_constraintTop_toTopOf="@+id/picturebox2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_picture" />
+
+    <ImageButton
+        android:id="@+id/btnCapture3"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox3"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox3"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="@+id/picturebox3"
+        app:layout_constraintTop_toTopOf="@+id/picturebox3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_picture" />
+
+    <EditText
+        android:id="@+id/EditTextMeal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Meal name"
+        android:inputType="textPersonName"
+        android:textColorHint="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="@+id/picturebox"
+        app:layout_constraintTop_toTopOf="@+id/picturebox"
+        app:layout_constraintVertical_bias="0.518" />
+
+    <EditText
+        android:id="@+id/editTextMeal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Meal name"
+        android:inputType="textPersonName"
+        android:textColorHint="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox2"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox2"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="@+id/picturebox2"
+        app:layout_constraintTop_toTopOf="@+id/picturebox2"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <EditText
+        android:id="@+id/editTextMeal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Meal name"
+        android:inputType="textPersonName"
+        android:textColorHint="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox3"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox3"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="@+id/picturebox3"
+        app:layout_constraintTop_toTopOf="@+id/picturebox3"
+        app:layout_constraintVertical_bias="0.518" />
+
+    <EditText
+        android:id="@+id/EditTextCalories1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nutritional Information"
+        android:inputType="textPersonName"
+        android:textColorHint="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="@+id/picturebox"
+        app:layout_constraintTop_toTopOf="@+id/picturebox"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <EditText
+        android:id="@+id/editTextCalories2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nutritional Information"
+        android:inputType="textPersonName"
+        android:textColorHint="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox2"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox2"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="@+id/picturebox2"
+        app:layout_constraintTop_toTopOf="@+id/picturebox2"
+        app:layout_constraintVertical_bias="0.832" />
+
+    <EditText
+        android:id="@+id/editTextCalories3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nutritional Information"
+        android:inputType="textPersonName"
+        android:textColorHint="#EFDADA"
+        app:layout_constraintBottom_toBottomOf="@+id/picturebox3"
+        app:layout_constraintEnd_toEndOf="@+id/picturebox3"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="@+id/picturebox3"
+        app:layout_constraintTop_toTopOf="@+id/picturebox3"
+        app:layout_constraintVertical_bias="0.846" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
